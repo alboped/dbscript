@@ -1,0 +1,16 @@
+{
+  "name": "dbscript",
+  "version": "1.0.0",
+  "description": "node 数据库操作常用脚本",
+  "main": "index.js",
+  "repository": "https://github.com/alboped/dbscript.git",
+  "author": "alboped <shi_zhaojun@aliyun.com>",
+  "license": "MIT",
+  "scripts": {
+    "mquery": "node ./index.js"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
